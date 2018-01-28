@@ -64,8 +64,8 @@ var HomePage = (function () {
         this.alertCtrl = alertCtrl;
         platform.ready().then(function () {
             var admobid = {
-                banner: 'ca-app-pub-3940256099942544/6300978111',
-                interstitial: 'ca-app-pub-3940256099942544/1033173712'
+                banner: 'ca-app-pub-9950476752545228/5263977772',
+                interstitial: 'ca-app-pub-9950476752545228/7882828254'
             };
             _this.admob.createBanner({
                 adId: admobid.banner,
@@ -75,7 +75,7 @@ var HomePage = (function () {
             });
             _this.admob.prepareInterstitial({
                 adId: admobid.interstitial,
-                isTesting: true,
+                isTesting: false,
                 autoShow: false
             });
         });
