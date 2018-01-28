@@ -13,8 +13,8 @@ export class HomePage {
     constructor(public navCtrl: NavController, platform: Platform, private admob: AdMobPro, public alertCtrl: AlertController) {
         platform.ready().then(() => {
             var admobid = {
-                banner: 'ca-app-pub-3940256099942544/6300978111',
-                interstitial: 'ca-app-pub-3940256099942544/1033173712'
+                banner: 'ca-app-pub-9950476752545228/5263977772',
+                interstitial: 'ca-app-pub-9950476752545228/7882828254'
             };
 
             this.admob.createBanner({
